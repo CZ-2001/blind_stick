@@ -3,7 +3,7 @@
 .\objects\exit_init.o: ..\main\main.h
 .\objects\exit_init.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\exit_init.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\exit_init.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\exit_init.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\exit_init.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\exit_init.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\exit_init.o: ..\Libaries\CMSIS\core_cmSimd.h

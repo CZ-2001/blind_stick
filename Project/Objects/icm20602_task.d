@@ -4,7 +4,7 @@
 .\objects\icm20602_task.o: ..\main\main.h
 .\objects\icm20602_task.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\icm20602_task.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\icm20602_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\icm20602_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\icm20602_task.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\icm20602_task.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\icm20602_task.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -42,7 +42,7 @@
 .\objects\icm20602_task.o: ..\Mylib\delay.h
 .\objects\icm20602_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\icm20602_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\icm20602_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\icm20602_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\icm20602_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\icm20602_task.o: ..\FreeRTOS\include\portable.h
 .\objects\icm20602_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -63,10 +63,10 @@
 .\objects\icm20602_task.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\icm20602_task.o: ..\Tasks\rc_task.h
 .\objects\icm20602_task.o: ..\Mylib\usart6_vision.h
-.\objects\icm20602_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\icm20602_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\icm20602_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\icm20602_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\icm20602_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\icm20602_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\icm20602_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\icm20602_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\icm20602_task.o: ..\Tasks\vofa_task.h
 .\objects\icm20602_task.o: ..\APP\vision_behaviour.h
 .\objects\icm20602_task.o: ..\APP\gimbal_behaviour.h

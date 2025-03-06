@@ -897,14 +897,14 @@ ARM Macro Assembler    Page 14
               E000ED88 
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\objects\startup_stm32f427xx.d -o.\objects\startup_stm32f427xx
-.o -IC:\Users\chenz\Desktop\2023-standard-infantry-master\Project\RTE -ID:\Keil
-\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2
-.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__MICROLIB SETA 1"
- --predefine="__UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --predefin
-e="STM32F427xx SETA 1" --list=.\listings\startup_stm32f427xx.lst ..\Libaries\st
-artup\startup_stm32f427xx.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=.\objects\startup_stm32f427xx.d -o.\objects\startup_stm32f42
+7xx.o -I.\RTE\_standard -ID:\MDK\pack\ARM\CMSIS-DSP\1.16.2\Include -ID:\MDK\pac
+k\ARM\CMSIS-DSP\1.16.2\PrivateInclude -ID:\MDK\pack\ARM\CMSIS\6.1.0\CMSIS\Core\
+Include -ID:\MDK\pack\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4
+xx\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 
+541" --predefine="STM32F427xx SETA 1" --predefine="_RTE_ SETA 1" --list=.\listi
+ngs\startup_stm32f427xx.lst ..\Libaries\startup\startup_stm32f427xx.s
 
 
 

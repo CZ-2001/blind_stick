@@ -8,11 +8,11 @@
 .\objects\calibrate_task.o: ..\Mylib\Remote_Control.h
 .\objects\calibrate_task.o: ..\Mylib\rc.h
 .\objects\calibrate_task.o: ..\Tasks\INS_Task.h
-.\objects\calibrate_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\calibrate_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
 .\objects\calibrate_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
-.\objects\calibrate_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\calibrate_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\calibrate_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\calibrate_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\calibrate_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\calibrate_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\calibrate_task.o: ..\FreeRTOS\include\portable.h
 .\objects\calibrate_task.o: ..\FreeRTOS\include\deprecated_definitions.h

@@ -2,7 +2,7 @@
 .\objects\gimbal_behaviour.o: ..\APP\gimbal_behaviour.h
 .\objects\gimbal_behaviour.o: ..\APP\can_rec.h
 .\objects\gimbal_behaviour.o: ..\main\main.h
-.\objects\gimbal_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gimbal_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gimbal_behaviour.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\gimbal_behaviour.o: ..\Libaries\CMSIS\core_cm4.h
 .\objects\gimbal_behaviour.o: ..\Libaries\CMSIS\core_cmInstr.h
@@ -45,7 +45,7 @@
 .\objects\gimbal_behaviour.o: ..\Tasks\user_task.h
 .\objects\gimbal_behaviour.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\gimbal_behaviour.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\gimbal_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gimbal_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gimbal_behaviour.o: ..\FreeRTOS\include\projdefs.h
 .\objects\gimbal_behaviour.o: ..\FreeRTOS\include\portable.h
 .\objects\gimbal_behaviour.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -62,10 +62,10 @@
 .\objects\gimbal_behaviour.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\gimbal_behaviour.o: ..\Tasks\rc_task.h
 .\objects\gimbal_behaviour.o: ..\Mylib\usart6_vision.h
-.\objects\gimbal_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gimbal_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\gimbal_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\gimbal_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\gimbal_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gimbal_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\gimbal_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gimbal_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\gimbal_behaviour.o: ..\Tasks\vofa_task.h
 .\objects\gimbal_behaviour.o: ..\APP\vision_behaviour.h
 .\objects\gimbal_behaviour.o: ..\APP\gimbal_behaviour.h

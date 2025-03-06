@@ -2,9 +2,9 @@
 .\objects\start_task.o: ..\Tasks\Start_Task.h
 .\objects\start_task.o: ..\main\main.h
 .\objects\start_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
-.\objects\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\start_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\start_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\start_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\start_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\start_task.o: ..\FreeRTOS\include\portable.h
 .\objects\start_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -62,10 +62,10 @@
 .\objects\start_task.o: ..\Mylib\user_lib.h
 .\objects\start_task.o: ..\Tasks\user_task.h
 .\objects\start_task.o: ..\Mylib\usart6_vision.h
-.\objects\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\start_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\start_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\start_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\start_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\start_task.o: ..\Tasks\vofa_task.h
 .\objects\start_task.o: ..\APP\vision_behaviour.h
 .\objects\start_task.o: ..\APP\gimbal_behaviour.h

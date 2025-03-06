@@ -4,7 +4,7 @@
 .\objects\remote_control.o: ..\Mylib\rc.h
 .\objects\remote_control.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\remote_control.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\remote_control.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\remote_control.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\remote_control.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\remote_control.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\remote_control.o: ..\Libaries\CMSIS\core_cmSimd.h

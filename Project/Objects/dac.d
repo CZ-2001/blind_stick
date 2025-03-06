@@ -4,7 +4,7 @@
 .\objects\dac.o: ..\main\main.h
 .\objects\dac.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\dac.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\dac.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dac.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\dac.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\dac.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\dac.o: ..\Libaries\CMSIS\core_cmSimd.h

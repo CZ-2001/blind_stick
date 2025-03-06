@@ -2,9 +2,9 @@
 .\objects\chassis_task.o: ..\Tasks\chassis_task.h
 .\objects\chassis_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\chassis_task.o: ..\main\main.h
-.\objects\chassis_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\chassis_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\chassis_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\chassis_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\chassis_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\chassis_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\chassis_task.o: ..\FreeRTOS\include\portable.h
 .\objects\chassis_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -62,10 +62,10 @@
 .\objects\chassis_task.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\chassis_task.o: ..\Tasks\rc_task.h
 .\objects\chassis_task.o: ..\Mylib\usart6_vision.h
-.\objects\chassis_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\chassis_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\chassis_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\chassis_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\chassis_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\chassis_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\chassis_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\chassis_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\chassis_task.o: ..\Tasks\vofa_task.h
 .\objects\chassis_task.o: ..\APP\vision_behaviour.h
 .\objects\chassis_task.o: ..\APP\gimbal_behaviour.h

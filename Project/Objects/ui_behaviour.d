@@ -5,7 +5,7 @@
 .\objects\ui_behaviour.o: ..\Mylib\sys.h
 .\objects\ui_behaviour.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\ui_behaviour.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\ui_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ui_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ui_behaviour.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\ui_behaviour.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\ui_behaviour.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -40,7 +40,7 @@
 .\objects\ui_behaviour.o: ..\Libaries\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\ui_behaviour.o: ..\Libaries\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\ui_behaviour.o: ..\Libaries\FWLIB\inc\stm32f4xx_sai.h
-.\objects\ui_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ui_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ui_behaviour.o: ..\APP\check_crc.h
 .\objects\ui_behaviour.o: ..\APP\gimbal_behaviour.h
 .\objects\ui_behaviour.o: ..\APP\can_rec.h
@@ -50,7 +50,7 @@
 .\objects\ui_behaviour.o: ..\Tasks\user_task.h
 .\objects\ui_behaviour.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\ui_behaviour.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\ui_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ui_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\ui_behaviour.o: ..\FreeRTOS\include\projdefs.h
 .\objects\ui_behaviour.o: ..\FreeRTOS\include\portable.h
 .\objects\ui_behaviour.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -66,9 +66,9 @@
 .\objects\ui_behaviour.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\ui_behaviour.o: ..\Tasks\rc_task.h
 .\objects\ui_behaviour.o: ..\Mylib\usart6_vision.h
-.\objects\ui_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ui_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\ui_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ui_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ui_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\ui_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\ui_behaviour.o: ..\Tasks\vofa_task.h
 .\objects\ui_behaviour.o: ..\APP\vision_behaviour.h
 .\objects\ui_behaviour.o: ..\APP\gimbal_behaviour.h

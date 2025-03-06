@@ -3,7 +3,7 @@
 .\objects\ist8310driver_middleware.o: ..\main\main.h
 .\objects\ist8310driver_middleware.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\ist8310driver_middleware.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\ist8310driver_middleware.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ist8310driver_middleware.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ist8310driver_middleware.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\ist8310driver_middleware.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\ist8310driver_middleware.o: ..\Libaries\CMSIS\core_cmSimd.h

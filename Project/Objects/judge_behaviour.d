@@ -4,7 +4,7 @@
 .\objects\judge_behaviour.o: ..\Mylib\sys.h
 .\objects\judge_behaviour.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\judge_behaviour.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\judge_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\judge_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\judge_behaviour.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\judge_behaviour.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\judge_behaviour.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -39,5 +39,5 @@
 .\objects\judge_behaviour.o: ..\Libaries\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\judge_behaviour.o: ..\Libaries\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\judge_behaviour.o: ..\Libaries\FWLIB\inc\stm32f4xx_sai.h
-.\objects\judge_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\judge_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
 .\objects\judge_behaviour.o: ..\APP\check_crc.h

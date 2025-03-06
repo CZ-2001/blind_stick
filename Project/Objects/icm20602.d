@@ -3,7 +3,7 @@
 .\objects\icm20602.o: ..\main\main.h
 .\objects\icm20602.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\icm20602.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\icm20602.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\icm20602.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\icm20602.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\icm20602.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\icm20602.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -41,7 +41,7 @@
 .\objects\icm20602.o: ..\Mylib\delay.h
 .\objects\icm20602.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\icm20602.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\icm20602.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\icm20602.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\icm20602.o: ..\FreeRTOS\include\projdefs.h
 .\objects\icm20602.o: ..\FreeRTOS\include\portable.h
 .\objects\icm20602.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -50,4 +50,4 @@
 .\objects\icm20602.o: ..\FreeRTOS\include\task.h
 .\objects\icm20602.o: ..\FreeRTOS\include\list.h
 .\objects\icm20602.o: ..\Mylib\user_lib.h
-.\objects\icm20602.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\icm20602.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h

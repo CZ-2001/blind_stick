@@ -3,7 +3,7 @@
 .\objects\ins_task.o: ..\main\main.h
 .\objects\ins_task.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\ins_task.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\ins_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ins_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ins_task.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\ins_task.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\ins_task.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -53,7 +53,7 @@
 .\objects\ins_task.o: ..\APP\pid.h
 .\objects\ins_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\ins_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\ins_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ins_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\ins_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\ins_task.o: ..\FreeRTOS\include\portable.h
 .\objects\ins_task.o: ..\FreeRTOS\include\deprecated_definitions.h

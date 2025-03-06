@@ -15,7 +15,7 @@
 
 #define USART6_REC_LEN  			128  	//定义最大接收字节数 200
 
-#define BUFF_LEN 4
+#define BUFF_LEN 11
 
 void USART6_vision_Configuration(uint32_t bound);
 void USART6_SendChar(uint8_t ch);

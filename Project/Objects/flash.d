@@ -4,7 +4,7 @@
 .\objects\flash.o: ..\main\main.h
 .\objects\flash.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\flash.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\flash.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flash.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\flash.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\flash.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\flash.o: ..\Libaries\CMSIS\core_cmSimd.h

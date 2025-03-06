@@ -2,9 +2,9 @@
 .\objects\ui_send_task.o: ..\Tasks\UI_Send_task.h
 .\objects\ui_send_task.o: ..\main\main.h
 .\objects\ui_send_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
-.\objects\ui_send_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ui_send_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ui_send_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\ui_send_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ui_send_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\ui_send_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\ui_send_task.o: ..\FreeRTOS\include\portable.h
 .\objects\ui_send_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -51,7 +51,7 @@
 .\objects\ui_send_task.o: ..\Libaries\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\ui_send_task.o: ..\Libaries\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\ui_send_task.o: ..\Libaries\FWLIB\inc\stm32f4xx_sai.h
-.\objects\ui_send_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ui_send_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ui_send_task.o: ..\APP\check_crc.h
 .\objects\ui_send_task.o: ..\APP\gimbal_behaviour.h
 .\objects\ui_send_task.o: ..\APP\can_rec.h
@@ -67,9 +67,9 @@
 .\objects\ui_send_task.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\ui_send_task.o: ..\Tasks\rc_task.h
 .\objects\ui_send_task.o: ..\Mylib\usart6_vision.h
-.\objects\ui_send_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ui_send_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\ui_send_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ui_send_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ui_send_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\ui_send_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\ui_send_task.o: ..\Tasks\vofa_task.h
 .\objects\ui_send_task.o: ..\APP\vision_behaviour.h
 .\objects\ui_send_task.o: ..\APP\gimbal_behaviour.h

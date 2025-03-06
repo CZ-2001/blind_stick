@@ -3,7 +3,7 @@
 .\objects\vision_behaviour.o: ..\main\main.h
 .\objects\vision_behaviour.o: ..\APP\gimbal_behaviour.h
 .\objects\vision_behaviour.o: ..\APP\can_rec.h
-.\objects\vision_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\vision_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\vision_behaviour.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\vision_behaviour.o: ..\Libaries\CMSIS\core_cm4.h
 .\objects\vision_behaviour.o: ..\Libaries\CMSIS\core_cmInstr.h
@@ -46,7 +46,7 @@
 .\objects\vision_behaviour.o: ..\Tasks\user_task.h
 .\objects\vision_behaviour.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\vision_behaviour.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\vision_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\vision_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\vision_behaviour.o: ..\FreeRTOS\include\projdefs.h
 .\objects\vision_behaviour.o: ..\FreeRTOS\include\portable.h
 .\objects\vision_behaviour.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -63,10 +63,10 @@
 .\objects\vision_behaviour.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\vision_behaviour.o: ..\Tasks\rc_task.h
 .\objects\vision_behaviour.o: ..\Mylib\usart6_vision.h
-.\objects\vision_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\vision_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\vision_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\vision_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\vision_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\vision_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\vision_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\vision_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\vision_behaviour.o: ..\Tasks\vofa_task.h
 .\objects\vision_behaviour.o: ..\APP\vision_behaviour.h
 .\objects\vision_behaviour.o: ..\APP\judge_behaviour.h

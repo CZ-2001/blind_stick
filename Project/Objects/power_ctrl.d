@@ -3,7 +3,7 @@
 .\objects\power_ctrl.o: ..\main\main.h
 .\objects\power_ctrl.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\power_ctrl.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\power_ctrl.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\power_ctrl.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\power_ctrl.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\power_ctrl.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\power_ctrl.o: ..\Libaries\CMSIS\core_cmSimd.h

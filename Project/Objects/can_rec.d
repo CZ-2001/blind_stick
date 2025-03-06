@@ -1,7 +1,7 @@
 .\objects\can_rec.o: ..\APP\can_rec.c
 .\objects\can_rec.o: ..\APP\can_rec.h
 .\objects\can_rec.o: ..\main\main.h
-.\objects\can_rec.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\can_rec.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\can_rec.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\can_rec.o: ..\Libaries\CMSIS\core_cm4.h
 .\objects\can_rec.o: ..\Libaries\CMSIS\core_cmInstr.h
@@ -39,4 +39,4 @@
 .\objects\can_rec.o: ..\Libaries\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\can_rec.o: ..\Libaries\FWLIB\inc\stm32f4xx_sai.h
 .\objects\can_rec.o: ..\Mylib\func_lib.h
-.\objects\can_rec.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\can_rec.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h

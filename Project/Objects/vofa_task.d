@@ -2,9 +2,9 @@
 .\objects\vofa_task.o: ..\Tasks\user_task.h
 .\objects\vofa_task.o: ..\main\main.h
 .\objects\vofa_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
-.\objects\vofa_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\vofa_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\vofa_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\vofa_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\vofa_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\vofa_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\vofa_task.o: ..\FreeRTOS\include\portable.h
 .\objects\vofa_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -60,10 +60,10 @@
 .\objects\vofa_task.o: ..\Mylib\user_lib.h
 .\objects\vofa_task.o: ..\Tasks\user_task.h
 .\objects\vofa_task.o: ..\Mylib\usart6_vision.h
-.\objects\vofa_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\vofa_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\vofa_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\vofa_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\vofa_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\vofa_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\vofa_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\vofa_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\vofa_task.o: ..\Tasks\vofa_task.h
 .\objects\vofa_task.o: ..\APP\vision_behaviour.h
 .\objects\vofa_task.o: ..\APP\gimbal_behaviour.h

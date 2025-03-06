@@ -1,7 +1,7 @@
 .\objects\mag_pwm.o: ..\Mylib\mag_pwm.c
 .\objects\mag_pwm.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\mag_pwm.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\mag_pwm.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mag_pwm.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mag_pwm.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\mag_pwm.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\mag_pwm.o: ..\Libaries\CMSIS\core_cmSimd.h

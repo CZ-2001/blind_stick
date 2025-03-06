@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_it.o: ..\Libaries\CMSIS\stm32f4xx_it.h
 .\objects\stm32f4xx_it.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\stm32f4xx_it.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\stm32f4xx_it.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_it.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_it.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\stm32f4xx_it.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\stm32f4xx_it.o: ..\Libaries\CMSIS\core_cmSimd.h

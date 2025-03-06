@@ -2,7 +2,7 @@
 .\objects\shoot_behaviour.o: ..\APP\shoot_behaviour.h
 .\objects\shoot_behaviour.o: ..\APP\can_rec.h
 .\objects\shoot_behaviour.o: ..\main\main.h
-.\objects\shoot_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\shoot_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\shoot_behaviour.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\shoot_behaviour.o: ..\Libaries\CMSIS\core_cm4.h
 .\objects\shoot_behaviour.o: ..\Libaries\CMSIS\core_cmInstr.h
@@ -46,7 +46,7 @@
 .\objects\shoot_behaviour.o: ..\Tasks\user_task.h
 .\objects\shoot_behaviour.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\shoot_behaviour.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\shoot_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\shoot_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\shoot_behaviour.o: ..\FreeRTOS\include\projdefs.h
 .\objects\shoot_behaviour.o: ..\FreeRTOS\include\portable.h
 .\objects\shoot_behaviour.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -63,10 +63,10 @@
 .\objects\shoot_behaviour.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\shoot_behaviour.o: ..\Tasks\rc_task.h
 .\objects\shoot_behaviour.o: ..\Mylib\usart6_vision.h
-.\objects\shoot_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\shoot_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\shoot_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\shoot_behaviour.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\shoot_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\shoot_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\shoot_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\shoot_behaviour.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\shoot_behaviour.o: ..\Tasks\vofa_task.h
 .\objects\shoot_behaviour.o: ..\APP\vision_behaviour.h
 .\objects\shoot_behaviour.o: ..\APP\gimbal_behaviour.h

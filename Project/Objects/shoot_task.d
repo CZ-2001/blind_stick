@@ -2,9 +2,9 @@
 .\objects\shoot_task.o: ..\Tasks\shoot_task.h
 .\objects\shoot_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\shoot_task.o: ..\main\main.h
-.\objects\shoot_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\shoot_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\shoot_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\shoot_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\shoot_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\shoot_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\shoot_task.o: ..\FreeRTOS\include\portable.h
 .\objects\shoot_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -64,10 +64,10 @@
 .\objects\shoot_task.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\shoot_task.o: ..\Tasks\rc_task.h
 .\objects\shoot_task.o: ..\Mylib\usart6_vision.h
-.\objects\shoot_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\shoot_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\shoot_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\shoot_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\shoot_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\shoot_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\shoot_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\shoot_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\shoot_task.o: ..\Tasks\vofa_task.h
 .\objects\shoot_task.o: ..\APP\vision_behaviour.h
 .\objects\shoot_task.o: ..\APP\gimbal_behaviour.h

@@ -3,7 +3,7 @@
 .\objects\rc_task.o: ..\main\main.h
 .\objects\rc_task.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\rc_task.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\rc_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rc_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rc_task.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\rc_task.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\rc_task.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -42,7 +42,7 @@
 .\objects\rc_task.o: ..\Tasks\user_task.h
 .\objects\rc_task.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\rc_task.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\rc_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\rc_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\rc_task.o: ..\FreeRTOS\include\projdefs.h
 .\objects\rc_task.o: ..\FreeRTOS\include\portable.h
 .\objects\rc_task.o: ..\FreeRTOS\include\deprecated_definitions.h
@@ -60,10 +60,10 @@
 .\objects\rc_task.o: ..\Mylib\AHRS\mpu6500driver.h
 .\objects\rc_task.o: ..\Tasks\rc_task.h
 .\objects\rc_task.o: ..\Mylib\usart6_vision.h
-.\objects\rc_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\rc_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\rc_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\rc_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\rc_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rc_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\rc_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\rc_task.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\rc_task.o: ..\Tasks\vofa_task.h
 .\objects\rc_task.o: ..\APP\vision_behaviour.h
 .\objects\rc_task.o: ..\APP\gimbal_behaviour.h

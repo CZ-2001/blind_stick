@@ -3,7 +3,7 @@
 .\objects\usart_judge.o: ..\main\main.h
 .\objects\usart_judge.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\usart_judge.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\usart_judge.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart_judge.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart_judge.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\usart_judge.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\usart_judge.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -40,5 +40,5 @@
 .\objects\usart_judge.o: ..\Libaries\FWLIB\inc\stm32f4xx_sai.h
 .\objects\usart_judge.o: ..\APP\judge_behaviour.h
 .\objects\usart_judge.o: ..\Mylib\sys.h
-.\objects\usart_judge.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart_judge.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
 .\objects\usart_judge.o: ..\APP\check_crc.h

@@ -4,7 +4,7 @@
 .\objects\adc.o: ..\Mylib\delay.h
 .\objects\adc.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\adc.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\adc.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\adc.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\adc.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\adc.o: ..\Libaries\CMSIS\core_cmSimd.h

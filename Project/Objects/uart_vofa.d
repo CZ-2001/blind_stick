@@ -4,7 +4,7 @@
 .\objects\uart_vofa.o: ..\main\main.h
 .\objects\uart_vofa.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\uart_vofa.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\uart_vofa.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart_vofa.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\uart_vofa.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\uart_vofa.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\uart_vofa.o: ..\Libaries\CMSIS\core_cmSimd.h
