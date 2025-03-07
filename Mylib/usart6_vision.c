@@ -6,14 +6,9 @@ uint8_t USART6_TX_BUF;
 
 uint8_t rrr;
 
-typedef struct
-{
-    float Pitch;
-    float Yaw;
-    float Roll;
-} MY_Angle;
 
-MY_Angle Angel;
+
+//MY_Angle Angel;
 
 
 void USART6_vision_Configuration(u32 bound)
@@ -76,18 +71,13 @@ u8 start = 0;
 树莓派发送回的数据格式：0xbf 0x内容 0xbb
 大疆在收到回来的数据以后 就要去发送给 地面站
 地面站 根据判断在什么位置
-
-
-
-
-
 */
 
 
 
 
 
-
+//用于更新陀螺仪数据
 void updata_angle(u8 *rx_buf, MY_Angle *angle)
 {
 	angle->Roll = (((rx_buf[3] << 8) | rx_buf[2]) / 32768.0) * 180.0;				   // 32768;//*180.0;
@@ -112,7 +102,7 @@ void USART6_IRQHandler(void)
 			{
 				sta6 = 0;
 				ishead6_f = 0;
-				updata_angle(USART6_RX_BUF, &Angel);
+				updata_angle(USART6_RX_BUF, &(my_blind_stick.angle_mpu6050));
 			}
 		}
 		else

@@ -4,6 +4,12 @@
             "path": "."
         }
     ],
-    "settings": {},
+    "settings": {
+        "files.associations": {
+            "chassis_behaviour.h": "c",
+            "usart6_vision.h": "c",
+            "judge_behaviour.h": "c"
+        }
+    },
     "extensions": {}
 }

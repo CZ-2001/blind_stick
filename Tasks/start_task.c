@@ -68,24 +68,6 @@ void start_task(void *pvParameters)
 {
   taskENTER_CRITICAL();
 
-#ifdef UISendTask
-  xTaskCreate((TaskFunction_t)UI_SendTask,
-              (const char *)"UI_SendTask",
-              (uint16_t)UI_STK_SIZE,
-              (void *)NULL,
-              (UBaseType_t)UI_TASK_PRIO,
-              (TaskHandle_t *)&UITask_Handler);
-#endif
-
-#ifdef INS_CAL_TASK
-  xTaskCreate((TaskFunction_t)INSTask,
-              (const char *)"INSTask",
-              (uint16_t)INS_STK_SIZE,
-              (void *)NULL,
-              (UBaseType_t)INS_TASK_PRIO,
-              (TaskHandle_t *)&INS_Task_Handler);
-
-#endif
 
 #ifdef CHASSIC_TASK
   xTaskCreate((TaskFunction_t)chassis_task,
@@ -106,14 +88,7 @@ void start_task(void *pvParameters)
               (TaskHandle_t *)&GIMBAL_Task_Handler);
 #endif
 
-#ifdef RC_TASK
-  xTaskCreate((TaskFunction_t)rc_choose_task,
-              (const char *)"rc_choose_task",
-              (uint16_t)RC_STK_SIZE,
-              (void *)NULL,
-              (UBaseType_t)RC_TASK_PRIO,
-              (TaskHandle_t *)&RCTask_Handler);
-#endif
+
 
 #ifdef VOFA_TASK
   xTaskCreate((TaskFunction_t)VofaTask,
@@ -124,30 +99,9 @@ void start_task(void *pvParameters)
               (TaskHandle_t *)&Vofa_Task_Handler);
 #endif
 
-#ifdef ICM20602Task
-  xTaskCreate((TaskFunction_t)icm20602_task,
-              (const char *)"icm20602_task",
-              (uint16_t)ICM20602_STK_SIZE,
-              (void *)NULL,
-              (UBaseType_t)ICM20602_TASK_PRIO,
-              (TaskHandle_t *)&Icm20602Task_Handler);
-#endif
-#ifdef SHOOTTASK
-  xTaskCreate((TaskFunction_t)shoot_task,
-              (const char *)"SHOOTTask",
-              (uint16_t)SHOOT_STK_SIZE,
-              (void *)NULL,
-              (UBaseType_t)SHOOT_TASK_PRIO,
-              (TaskHandle_t *)&SHOOT_Task_Handler);
-#endif
 
 
-//  xTaskCreate((TaskFunction_t)UserTask,
-//              (const char *)"UserTask",
-//              (uint16_t)User_STK_SIZE,
-//              (void *)NULL,
-//              (UBaseType_t)User_TASK_PRIO,
-//              (TaskHandle_t *)&UserTask_Handler);
+
 
   vTaskDelete(StartTask_Handler); 
   taskEXIT_CRITICAL();            

@@ -5,7 +5,7 @@ u8 flag_cap_use = 0;
 void chassis_task(void *pvParameters)
 {
 
-	chassis_init();
+	//chassis_init();
 	while (1)
 	{
 

@@ -11,16 +11,17 @@
 #include <stm32f4xx.h>
 #include "rc_task.h"
 #include "judge_behaviour.h"
+#include "chassis_behaviour.h"
 
 
-#define USART6_REC_LEN  			128  	//定义最大接收字节数 200
+#define USART6_REC_LEN  			128  	
 
 #define BUFF_LEN 11
 
 void USART6_vision_Configuration(uint32_t bound);
 void USART6_SendChar(uint8_t ch);
 extern u8 USART6_RX_BUF[BUFF_LEN];
-extern uint16_t USART6_RX_STA;       //接收状态标记	
+extern uint16_t USART6_RX_STA;      
 extern void vision_send(void);
 #endif
 

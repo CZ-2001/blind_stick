@@ -2,191 +2,11 @@
   "name": "standard",
   "type": "ARM",
   "dependenceList": [],
-  "srcDirs": [
-    ".eide/deps"
-  ],
+  "srcDirs": [],
   "virtualFolder": {
     "name": "<virtual_root>",
     "files": [],
     "folders": [
-      {
-        "name": "::CMSIS",
-        "files": [],
-        "folders": []
-      },
-      {
-        "name": "AHRS",
-        "files": [
-          {
-            "path": "../Mylib/AHRS/AHRS.lib"
-          },
-          {
-            "path": "../Mylib/AHRS/AHRS_middleware.c"
-          },
-          {
-            "path": "../Mylib/AHRS/ist8310driver.c"
-          },
-          {
-            "path": "../Mylib/AHRS/ist8310driver_middleware.c"
-          },
-          {
-            "path": "../Mylib/AHRS/mpu6500driver.c"
-          },
-          {
-            "path": "../Mylib/AHRS/mpu6500driver_middleware.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "APP",
-        "files": [
-          {
-            "path": "../APP/pid.c"
-          },
-          {
-            "path": "../APP/can_rec.c"
-          },
-          {
-            "path": "../APP/chassis_behaviour.c"
-          },
-          {
-            "path": "../APP/gimbal_behaviour.c"
-          },
-          {
-            "path": "../APP/function.c"
-          },
-          {
-            "path": "../APP/shoot_behaviour.c"
-          },
-          {
-            "path": "../APP/vision_behaviour.c"
-          },
-          {
-            "path": "../APP/judge_behaviour.c"
-          },
-          {
-            "path": "../APP/UI_behaviour.c"
-          },
-          {
-            "path": "../APP/check_crc.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "freeRTOS",
-        "files": [
-          {
-            "path": "../FreeRTOS/croutine.c"
-          },
-          {
-            "path": "../FreeRTOS/event_groups.c"
-          },
-          {
-            "path": "../FreeRTOS/list.c"
-          },
-          {
-            "path": "../FreeRTOS/queue.c"
-          },
-          {
-            "path": "../FreeRTOS/tasks.c"
-          },
-          {
-            "path": "../FreeRTOS/timers.c"
-          },
-          {
-            "path": "../FreeRTOS/portable/MemMang/heap_4.c"
-          },
-          {
-            "path": "../FreeRTOS/portable/RVDS/ARM_CM4F/port.c"
-          },
-          {
-            "path": "../Libaries/FreeRTOS_middleware.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "hardware",
-        "files": [
-          {
-            "path": "../Mylib/adc.c"
-          },
-          {
-            "path": "../Mylib/buzzer.c"
-          },
-          {
-            "path": "../Mylib/can.c"
-          },
-          {
-            "path": "../Mylib/dac.c"
-          },
-          {
-            "path": "../Mylib/delay.c"
-          },
-          {
-            "path": "../Mylib/exit_init.c"
-          },
-          {
-            "path": "../Mylib/flash.c"
-          },
-          {
-            "path": "../Mylib/laser.c"
-          },
-          {
-            "path": "../Mylib/led.c"
-          },
-          {
-            "path": "../Mylib/power_ctrl.c"
-          },
-          {
-            "path": "../Mylib/rc.c"
-          },
-          {
-            "path": "../Mylib/rng.c"
-          },
-          {
-            "path": "../Mylib/spi.c"
-          },
-          {
-            "path": "../Mylib/sys.c"
-          },
-          {
-            "path": "../Mylib/timer.c"
-          },
-          {
-            "path": "../Mylib/user_lib.c"
-          },
-          {
-            "path": "../Mylib/remote_control.c"
-          },
-          {
-            "path": "../Mylib/func_lib.c"
-          },
-          {
-            "path": "../Mylib/uart_vofa.c"
-          },
-          {
-            "path": "../Mylib/icm20602.c"
-          },
-          {
-            "path": "../Mylib/usart_judge.c"
-          },
-          {
-            "path": "../Mylib/usart6_vision.c"
-          },
-          {
-            "path": "../Mylib/mag_pwm.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "HELPS",
-        "files": [],
-        "folders": []
-      },
       {
         "name": "Libaries",
         "files": [
@@ -329,10 +149,178 @@
         "folders": []
       },
       {
+        "name": "freeRTOS",
+        "files": [
+          {
+            "path": "../FreeRTOS/croutine.c"
+          },
+          {
+            "path": "../FreeRTOS/event_groups.c"
+          },
+          {
+            "path": "../FreeRTOS/list.c"
+          },
+          {
+            "path": "../FreeRTOS/queue.c"
+          },
+          {
+            "path": "../FreeRTOS/tasks.c"
+          },
+          {
+            "path": "../FreeRTOS/timers.c"
+          },
+          {
+            "path": "../FreeRTOS/portable/MemMang/heap_4.c"
+          },
+          {
+            "path": "../FreeRTOS/portable/RVDS/ARM_CM4F/port.c"
+          },
+          {
+            "path": "../Libaries/FreeRTOS_middleware.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "AHRS",
+        "files": [
+          {
+            "path": "../Mylib/AHRS/AHRS.lib"
+          },
+          {
+            "path": "../Mylib/AHRS/AHRS_middleware.c"
+          },
+          {
+            "path": "../Mylib/AHRS/ist8310driver.c"
+          },
+          {
+            "path": "../Mylib/AHRS/ist8310driver_middleware.c"
+          },
+          {
+            "path": "../Mylib/AHRS/mpu6500driver.c"
+          },
+          {
+            "path": "../Mylib/AHRS/mpu6500driver_middleware.c"
+          }
+        ],
+        "folders": []
+      },
+      {
         "name": "main",
         "files": [
           {
             "path": "../main/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "hardware",
+        "files": [
+          {
+            "path": "../Mylib/adc.c"
+          },
+          {
+            "path": "../Mylib/buzzer.c"
+          },
+          {
+            "path": "../Mylib/can.c"
+          },
+          {
+            "path": "../Mylib/dac.c"
+          },
+          {
+            "path": "../Mylib/delay.c"
+          },
+          {
+            "path": "../Mylib/exit_init.c"
+          },
+          {
+            "path": "../Mylib/flash.c"
+          },
+          {
+            "path": "../Mylib/laser.c"
+          },
+          {
+            "path": "../Mylib/led.c"
+          },
+          {
+            "path": "../Mylib/power_ctrl.c"
+          },
+          {
+            "path": "../Mylib/rc.c"
+          },
+          {
+            "path": "../Mylib/rng.c"
+          },
+          {
+            "path": "../Mylib/spi.c"
+          },
+          {
+            "path": "../Mylib/sys.c"
+          },
+          {
+            "path": "../Mylib/timer.c"
+          },
+          {
+            "path": "../Mylib/user_lib.c"
+          },
+          {
+            "path": "../Mylib/remote_control.c"
+          },
+          {
+            "path": "../Mylib/func_lib.c"
+          },
+          {
+            "path": "../Mylib/uart_vofa.c"
+          },
+          {
+            "path": "../Mylib/icm20602.c"
+          },
+          {
+            "path": "../Mylib/usart_judge.c"
+          },
+          {
+            "path": "../Mylib/usart6_vision.c"
+          },
+          {
+            "path": "../Mylib/mag_pwm.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "APP",
+        "files": [
+          {
+            "path": "../APP/pid.c"
+          },
+          {
+            "path": "../APP/can_rec.c"
+          },
+          {
+            "path": "../APP/chassis_behaviour.c"
+          },
+          {
+            "path": "../APP/gimbal_behaviour.c"
+          },
+          {
+            "path": "../APP/function.c"
+          },
+          {
+            "path": "../APP/shoot_behaviour.c"
+          },
+          {
+            "path": "../APP/vision_behaviour.c"
+          },
+          {
+            "path": "../APP/judge_behaviour.c"
+          },
+          {
+            "path": "../APP/UI_behaviour.c"
+          },
+          {
+            "path": "../APP/check_crc.c"
           }
         ],
         "folders": []
@@ -374,6 +362,16 @@
             "path": "../Tasks/UI_Send_task.c"
           }
         ],
+        "folders": []
+      },
+      {
+        "name": "HELPS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "::CMSIS",
+        "files": [],
         "folders": []
       }
     ]
@@ -529,6 +527,7 @@
       "custom_dep": {
         "name": "default",
         "incList": [
+          ".",
           "../Libaries/CMSIS",
           "../Libaries/FWLIB/inc",
           "../Libaries",
@@ -547,7 +546,6 @@
           "RTE/_standard"
         ],
         "libList": [],
-        "sourceDirList": [],
         "defineList": [
           "STM32F427X",
           "USE_STDPERIPH_DRIVER",
@@ -559,8 +557,34 @@
           "ARM_MATH_ROUNDING",
           "USE_STDPERIPH_DRIVER"
         ]
+      },
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "warnings": "unspecified"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "xo-base": "",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000"
+          }
+        }
       }
     }
   },
-  "version": "3.3"
+  "version": "3.5"
 }

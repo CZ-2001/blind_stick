@@ -8,6 +8,10 @@
 #include "function.h"
 #include "arm_math.h"
 #include "judge_behaviour.h"
+#include "sys.h"
+
+#include "usart6_vision.h"
+
 #define KP_ANGLE 5.0f
 #define KI_ANGLE 0.0f
 #define KD_ANGLE 0.005f
@@ -21,12 +25,6 @@
 #define MAX_OUT_SPEED 7500.f
  
 
-//#define KP_CHASSIS 5.4f
-//#define KI_CHASSIS 0.05f
-//#define KD_CHASSIS 0.00f
-//#define MAX_OUT_CHASSIS 9000.0f
-//#define MAX_IOUT_CHASSIS 1500.0f
- 
 #define KP_CHASSIS         5.4
 #define KI_CHASSIS         0.0051
 #define KD_CHASSIS         0.00115
@@ -43,6 +41,35 @@
 
 
 #define Motor_Ecd_to_Rad 0.000766990394f // 2*  PI  /8192
+typedef struct
+{
+    float Pitch;
+    float Yaw;
+    float Roll;
+} MY_Angle;
+typedef struct 
+{
+	MY_Angle angle_mpu6050;// 用于储存陀螺仪的数据
+	u8 fall_flag;// 摔倒标志位
+
+}Bilid_str;
+
+extern Bilid_str my_blind_stick;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 typedef enum
 {
